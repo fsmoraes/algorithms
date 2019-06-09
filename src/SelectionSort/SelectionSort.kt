@@ -8,7 +8,7 @@ fun main() {
 }
 
 // SelectionSort algorithms consists of finding the lowest value in the array and swap this with the value on loop through
-// In general the complexity is square O(n²)
+// Time Complexity is square O(n²)
 fun sort(arr: Array<Int>): Array<Int> {
     for (i in 0 until arr.size) {
         var lowest = i

@@ -7,8 +7,8 @@ fun main() {
     println(Arrays.toString(ret))
 }
 
-// In general the complexity is square O(n²)
-// but if the array was nearly sorted is linear O(n)
+// BubbleSort algorithms consists swapping the values until the highest value comes to the end
+// Time Complexity is square O(n²)
 fun sort(arr: Array<Int>): Array<Int> {
     var noSwap: Boolean
 
