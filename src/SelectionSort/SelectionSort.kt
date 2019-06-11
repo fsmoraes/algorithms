@@ -7,7 +7,7 @@ fun main() {
     println(Arrays.toString(ret))
 }
 
-// SelectionSort algorithms consists of finding the lowest value in the array and swap this with the value on loop through
+// SelectionSort algorithms consist of finding the lowest value in the array and swap this with the value on loop through
 // Time Complexity is square O(n²)
 fun sort(arr: Array<Int>): Array<Int> {
     for (i in 0 until arr.size) {
