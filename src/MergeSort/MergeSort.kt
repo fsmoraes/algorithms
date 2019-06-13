@@ -9,6 +9,7 @@ fun main() {
     println(Arrays.toString(ret))
 }
 
+// Time Complexity is O(n log n)
 fun sort(arr: Array<Int>): Array<Int> {
 
     if (arr.size <= 1) {

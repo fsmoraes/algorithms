@@ -8,7 +8,7 @@ fun main() {
 }
 
 // BubbleSort algorithms consist swapping the values until the highest value comes to the end
-// Time Complexity is square O(n²)
+// Time Complexity is O(n²)
 fun sort(arr: Array<Int>): Array<Int> {
     var noSwap: Boolean
 

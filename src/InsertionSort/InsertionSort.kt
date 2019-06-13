@@ -7,7 +7,7 @@ fun main() {
     println(Arrays.toString(ret))
 }
 
-// Time Complexity is square O(n²)
+// Time Complexity is O(n²)
 fun sort(arr: Array<Int>): Array<Int> {
 
     for (i in 0 until arr.size) {
