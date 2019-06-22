@@ -10,13 +10,15 @@ Quick Sort     | O(n log n) | O(n log n) | O(n²) | O(log n)
 
 
 ### Bubble Sort
-A sorting algorithm where the largest value bubble up to the top!  
 The way that bubble sort works is that as we loop through each item we compare it to the next item in the array.  
 If the value is larger than next value, we swap. Basicaly we swap if something is larger.
 
 ### Selection Sort
-A sorting algorithm where the smallest value is put to the beginning!  
 The way that selection sort works is that as we loop through each item we compare it to the next item in the array.  
 We compare the value to the next item in the array until we find a smaller number.  
 If the "minimum" is not the value (index), we swap the two values.  
 Then repeat this with the next element until the array is sorted.  
+
+### Insertion Sort
+The way that insertion sort works is builds up the sort by gradually creating a larger left half which is alwais sorted.  
+We compare the second element with the one before it and swap if necessary.
