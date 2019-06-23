@@ -15,7 +15,7 @@ If the value is larger than next value, we swap. Basicaly we swap if something i
 
 ### Selection Sort
 The way that selection sort works is that as we loop through each item we compare it to the next item in the array.  
-We compare the value to the next item in the array until we find a smaller number.  
+We compare the value to the next item until we find a smaller number.  
 If the "minimum" is not the value (index), we swap the two values.  
 Then repeat this with the next element until the array is sorted.  
 
