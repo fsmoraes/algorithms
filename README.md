@@ -24,3 +24,7 @@ We compare the second element with the one before it and swap if necessary.
 ### Merge Sort
 Merge Sort it's a combination of three things - splitting up, merging and sorting!  
 The way that Merge Sort works is by decomposing an array into smaller arrays of 0 or 1 elements, then building up a newly sorted array.  
+
+### Quick Sort
+Like Merge Sort, exploits the fact that array of 0 or 1 element are always sorted.
+The way that Quick Sort works is by selecting one element, (called the pivot) and finding the index where the pivot should end up in the sorted array.
