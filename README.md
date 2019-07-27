@@ -1,3 +1,5 @@
+![BigO](BigOChart.jpeg)
+
 Algorithm    | Time Complexity (Best) | Time Complexity (Average) | Time Complexity (Worst) | Space Complexity
 ------------ | ------------- | ------------- | ------------- | -------------
 Bubble Sort    | O(n)  | O(n²) | O(n²) | O(1)
